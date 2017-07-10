@@ -50,3 +50,20 @@ return [
 ];
 ```
 7. Si vamos a usar MobileIA Authentication, seguir los pasos requeridos en: [https://github.com/MobileIA/mia-authentication-zf3](https://github.com/MobileIA/mia-authentication-zf3).
+
+# Creación de modulo
+
+1. Creamos la carpeta dentro de /modules
+2. Editar el archivo composer.json
+```json
+"autoload": {
+    "psr-4": {
+        ...
+        "NombreModulo\\": "module/NombreModulo/src/"
+    }
+},
+```
+3. Ejecutar siguiente comando para actualizar:
+```bash
+$ composer dump-autoload
+```
