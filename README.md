@@ -67,3 +67,10 @@ return [
 ```bash
 $ composer dump-autoload
 ```
+4. Activar modulo, abrir archivo: config/modules.config.php
+```php
+return [
+    // Others modules
+    'NombreModulo',
+];
+```
