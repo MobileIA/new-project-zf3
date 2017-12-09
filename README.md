@@ -3,7 +3,7 @@ Pasos para crear un proyecto desde Zend Framework 3
 
 1. Crear estructura inicial a traves de composer: (reemplazar "path/to/install" por la ruta y nombre de la carpeta donde se va instalar)
 ```bash
-$ composer create-project -n -sdev zendframework/skeleton-application path/to/install
+$ composer create-project -s dev zendframework/skeleton-application path/to/install
 ```
 2. Vamos a agregar la libreria Base de MobileIA, editamos el archivo "composer.json", donde agregamos la ubicación de la misma:
 ```json
