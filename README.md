@@ -51,7 +51,7 @@ return [
 ```
 7. Si vamos a usar MobileIA Authentication, seguir los pasos requeridos en: [https://github.com/MobileIA/mia-authentication-zf3](https://github.com/MobileIA/mia-authentication-zf3).
 
-# Creación de modulo
+# Creación de modulo interno
 
 1. Creamos la carpeta dentro de /modules
 2. Editar el archivo composer.json
@@ -97,3 +97,26 @@ class Module implements \Zend\ModuleManager\Feature\ConfigProviderInterface
     }
 }
 ```
+
+# Creación de modulo publico para implementar con Composer
+
+1. Crear repositorio en github
+2. Clonar repositorio vacío
+3. Crear proyecto Netbeans
+4. Crear archivo composer.json
+5. Comitiar cambios
+6. Crear release con el número de versión
+
+Para usar este modulo en un proyecto creado:
+
+1. Incluir repositorio en composer.json del proyecto
+```json
+"repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/MobileIA/mia-base-zf3.git"
+    }
+],
+```
+2. Agregado require: "mobileia/mia-authentication-zf3": "^0.0.1"
+3. composer update
