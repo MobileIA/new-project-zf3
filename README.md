@@ -115,6 +115,14 @@ class Module implements \Zend\ModuleManager\Feature\ConfigProviderInterface
 4. Crear archivo composer.json
 5. Comitiar cambios
 6. Crear release con el número de versión
+7. Si es un modulo para instalar en ZF3: agregar siguientes lineas:
+```json
+"extra": {
+    "zf": {
+        "component": "MIAEmail"
+    }
+}
+```
 
 Para usar este modulo en un proyecto creado:
 
