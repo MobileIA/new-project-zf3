@@ -51,6 +51,15 @@ return [
 ```
 7. Si vamos a usar MobileIA Authentication, seguir los pasos requeridos en: [https://github.com/MobileIA/mia-authentication-zf3](https://github.com/MobileIA/mia-authentication-zf3).
 
+# Librerias disponibles:
+
+. [https://github.com/MobileIA/mia-layout-zf3](MIALayout)
+. [https://github.com/MobileIA/mia-layout-lte-zf3](MIALayoutLTE)
+. [https://github.com/MobileIA/mia-layout-elite-zf3](MIALayoutElite)
+. [https://github.com/MobileIA/mia-installer-zf3](MIAInstaller)
+. [https://github.com/MobileIA/mia-mail-zf3](MIAEmail)
+. [https://github.com/MobileIA/mia-file-zf3](MIAFile)
+
 # Creación de modulo interno
 
 1. Creamos la carpeta dentro de /modules
